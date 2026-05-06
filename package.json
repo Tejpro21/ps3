@@ -1,0 +1,12 @@
+{
+  "name": "hedge-fund-risk-modeling-system",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && uvicorn app.main:app --reload",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
+
